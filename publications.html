@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3efe8">
+  <meta name="description" content="Journal papers and registered patents of the UCT Laboratory, Kookmin University.">
+  <title>Publications | UCT Laboratory</title>
+  <link rel="icon" href="assets/kookmin-logo-en.png">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="publications">
+  <svg class="icons" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24"><path d="M20 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="diagonal" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="research" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-40 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(40 12 12)"/></symbol>
+    <symbol id="circuit" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></symbol>
+    <symbol id="waves" viewBox="0 0 24 24"><path d="M3 12h3M10 8a6 6 0 0 1 0 8M14 5a10 10 0 0 1 0 14M18 2a14 14 0 0 1 0 20"/></symbol>
+    <symbol id="document" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></symbol>
+    <symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="utility-bar">
+    <div class="wrap utility-inner">
+      <span class="utility-id"><span data-university>KOOKMIN UNIVERSITY</span><span aria-hidden="true"> · </span><span data-department>School of Electrical Engineering</span></span>
+      <span class="utility-links"><span data-lab-office></span><a data-university-link href="https://www.kookmin.ac.kr/" target="_blank" rel="noopener noreferrer">Kookmin University <svg aria-hidden="true"><use href="#diagonal"/></svg><span class="sr-only"> (opens in a new tab)</span></a></span>
+    </div>
+  </div>
+  <header class="header" id="site-header">
+    <div class="wrap header-inner">
+      <div class="brand-group">
+        <a class="brand" data-university-link href="https://www.kookmin.ac.kr/" target="_blank" rel="noopener noreferrer" aria-label="Kookmin University website (opens in a new tab)"><img id="university-logo" src="assets/kookmin-logo-en-on-light.png" width="379" height="56" alt="Kookmin University"></a>
+        <a href="index.html" class="lab-name" data-lab-name>UCT Laboratory</a>
+      </div>
+      <nav class="desktop-nav" id="desktop-nav" aria-label="Main navigation">
+        <a href="index.html#professor">Professor</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="search-open" type="button" aria-label="Search the laboratory website"><svg><use href="#search"/></svg></button>
+        <button class="icon-button mobile-menu" id="menu-open" type="button" aria-label="Open menu"><svg><use href="#menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" id="page-top" aria-labelledby="page-title">
+      <div class="wrap page-hero-inner">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Publications</span></nav>
+        <p class="eyebrow page-eyebrow" id="page-eyebrow"></p>
+        <h1 id="page-title"></h1>
+        <p class="page-lede" id="page-lede"></p>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications" aria-label="Publications and patents">
+      <div class="wrap">
+        <div class="pub-layout">
+          <div>
+            <h2 class="list-heading" id="journal-heading">Journal papers</h2>
+            <ol class="pub-list" id="publication-list" aria-labelledby="journal-heading"></ol>
+          </div>
+          <aside class="patent-panel" aria-labelledby="patent-list-heading">
+            <h2 class="list-heading" id="patent-list-heading">Registered patents</h2>
+            <ul class="patent-list" id="patent-list"></ul>
+            <p class="panel-note" id="patent-note"></p>
+            <h2 class="list-heading applications-heading" id="applications-heading">Patent applications</h2>
+            <ul class="patent-list" id="application-list"></ul>
+            <p class="panel-note" id="application-note"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-main">
+      <div>
+        <p class="footer-wordmark"><span data-lab-name>UCT Laboratory</span></p>
+        <p class="footer-address" id="footer-address"></p>
+      </div>
+      <nav class="footer-links" id="footer-links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="index.html#professor">Professor</a>
+        <a href="index.html#contact">Contact</a>
+        <a data-university-link href="https://www.kookmin.ac.kr/" target="_blank" rel="noopener noreferrer">Kookmin University <svg aria-hidden="true"><use href="#diagonal"/></svg><span class="sr-only"> (opens in a new tab)</span></a>
+      </nav>
+      <a class="back-top" href="#main" aria-label="Back to top"><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© <span data-university>KOOKMIN UNIVERSITY</span></span>
+      <button id="motion-toggle" type="button" aria-pressed="false">Motion: on</button>
+    </div>
+  </footer>
+
+  <dialog id="search-dialog" aria-labelledby="search-title">
+    <div class="dialog-heading"><h2 id="search-title">Search the laboratory.</h2><button class="icon-button" type="button" data-close aria-label="Close search"><svg><use href="#close"/></svg></button></div>
+    <label for="search-input">Search the laboratory website</label>
+    <div class="search-field"><svg aria-hidden="true"><use href="#search"/></svg><input id="search-input" type="search" placeholder="Synthesizer, capacitor ladder, professor..." autocomplete="off"></div>
+    <div id="search-results" aria-live="polite"></div>
+  </dialog>
+  <dialog id="menu-dialog" aria-labelledby="menu-title">
+    <div class="dialog-heading"><h2 id="menu-title">Menu</h2><button class="icon-button" type="button" data-close aria-label="Close menu"><svg><use href="#close"/></svg></button></div>
+    <nav aria-label="Mobile navigation" id="mobile-nav">
+      <a href="index.html">Home <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a href="research.html">Research <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a href="publications.html">Publications <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a href="index.html#professor">Professor <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a href="index.html#contact">Contact <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <button type="button" class="menu-search" id="menu-search">Search <svg aria-hidden="true"><use href="#search"/></svg></button>
+      <a data-university-link href="https://www.kookmin.ac.kr/" target="_blank" rel="noopener noreferrer">Kookmin University <svg aria-hidden="true"><use href="#diagonal"/></svg><span class="sr-only"> (opens in a new tab)</span></a>
+    </nav>
+  </dialog>
+  <div class="palette-switcher" id="palette-switcher" role="group" aria-label="Compare colour palettes" hidden><span>Palette</span></div>
+  <noscript><p class="noscript-message">Please enable JavaScript to view laboratory content. Use the logo above to visit Kookmin University.</p></noscript>
+</body>
+</html>
